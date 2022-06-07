@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icones {
+    display: flex;
+    gap: 30px;
+
+}
+
+.menu {
+    border-top: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-decoration: none;
+    padding: 66px;
+    height: 50px;
+
+
+}
+
+.coluna-1 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: flex-start;
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+    margin-top: 42px;
+
+
+}
+
+.topicos-titulo {
+    width: 400px;
+    background-color: rgba(240, 240, 240, 0.075);
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.coluna-2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: flex-start;
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+
+}
+
+.coluna-3 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: flex-start;
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+
+}
+
+.coluna-4 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: flex-start;
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+}
+
+#subtitulo {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: gray;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.menu-titulo a:hover {
+    color: gray;
+}
+
+.menu-titulo {
+    height: 50px;
+}
+
+.titulo-1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-bottom: 2px solid white;
+    width: 226px;
+    margin-top: 47px;
+}
+
+.titulo-2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    border-bottom: 2px solid white;
+    width: 103px;
+    margin-top: 100px;
+}
+
+
+.atalhos {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#subtitulo-atalho {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: gray;
+    margin-top: 15px;
+    width: 383px;
+
+}
+
+.atalho {
+    background-color: rgba(240, 240, 240, 0.075);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.atalho a:hover {
+    color: gray;
+}
+
+#titulo-atalho {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.titulo-3 {
+    color: rgb(255, 255, 255);
+    font-family: 'Zen Maru Gothic', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-bottom: 2px solid white;
+    width: 131px;
+    margin-top: 47px;
+}
+
+footer {
+    background-color: rgba(240, 240, 240, 0.075);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    height: 215px;
+
+
+}
+#imgg {
+    width: 24px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.mapa  {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#logox {
+    margin-right: 120px;
+    margin-top: 29px;
+}
+
+#kk {
+font-size: small;
+}
+
+.atendimento {
+    font-size: 12px;
+}
+
+.logo-pé {
+    border-right: 1px solid;
+    height: 170px;
+}
+
+.mapa a:hover {
+    color:gray;
+}
+
